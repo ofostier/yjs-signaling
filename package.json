@@ -1,0 +1,29 @@
+{
+  "name": "yjs-signaling-server",
+  "version": "1.0.0",
+  "description": "Y.js WebSocket signaling server for real-time collaboration",
+  "type": "module",
+  "main": "server-signaling.js",
+  "scripts": {
+    "start": "node server-signaling.js",
+    "dev": "node server-signaling.js"
+  },
+  "keywords": [
+    "yjs",
+    "websocket",
+    "collaboration",
+    "crdt",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "yjs": "^13.6.8",
+    "y-protocols": "^1.0.6",
+    "lib0": "^0.2.89"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
